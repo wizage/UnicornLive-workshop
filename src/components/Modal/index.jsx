@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 /* Location 17 */
+
 import './index.css';
 
 class Modal extends Component {
@@ -42,6 +43,7 @@ class Modal extends Component {
   answerChosen = (index) => {
     const { id } = this.state;
     /* Location 18 */
+    
     this.setState({
       userAnswer: index,
     });

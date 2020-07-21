@@ -13,9 +13,8 @@ class Video extends Component {
     window.registerIVSTech(videojs);
     this.player = videojs(this.videoNode, this.props);
     this.player.src(src);
-    this.player.getIVSPlayer().addEventListener(PlayerEventType.TEXT_METADATA_CUE, (metadata) => {
-      console.log(metadata.text);
-    });
+    /* Location 13 */
+
   }
 
   componentWillUnmount() {
