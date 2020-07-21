@@ -1,0 +1,10 @@
+{
+    "endpoint": "https://ivs.us-west-2.amazonaws.com/",
+    "authorizationConfig": {
+        "authorizationType": "AWS_IAM",
+        "awsIamConfig": {
+            "signingRegion": "us-west-2",
+            "signingServiceName": "ivs"
+        }
+    }
+}
