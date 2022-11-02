@@ -13,7 +13,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
     "ts-react-json-table": "^0.1.2",
-    "video.js": "^7.8.4"
+    "video.js": "^7.20.3"
   },
   "scripts": {
     "start": "react-scripts start",
